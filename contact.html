@@ -13,7 +13,7 @@ Licence URI: https://www.os-templates.com/template-terms
 <title>Pentwist | Pages | Gallery</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-<link href="layout/styles/layout.css" rel="stylesheet" type="text/css" media="all">
+<link href="layout/styles/contact.css" rel="stylesheet" type="text/css" media="all">
 </head>
 <body id="top">
 <!-- ################################################################################################ -->
@@ -66,65 +66,81 @@ Licence URI: https://www.os-templates.com/template-terms
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
-<div class="wrapper bgded overlay" style="background-image:url('images/image4.jpg');">
-  <div id="breadcrumb" class="hoc clear"> 
-    <!-- ################################################################################################ -->
-    
-    <!-- ################################################################################################ -->
-  </div>
-</div>
-<!-- ################################################################################################ -->
-<!-- ################################################################################################ -->
-<!-- ################################################################################################ -->
-<div class="wrapper coloured">
-  <article class="hoc cta clear"> 
-    <!-- ################################################################################################ -->
-    <h6 class="three_quarter first font-x2">Every image tells a story of tradition art and community</h6>
-    <footer class="one_quarter"><a class="btn" href="#gallery"><strong>Our Gallery</strong></a></footer>
-    <!-- ################################################################################################ -->
-  </article>
-</div>
-<!-- ################################################################################################ -->
-<!-- ################################################################################################ -->
-<!-- ################################################################################################ -->
-<div class="wrapper row3">
-  <main class="hoc container clear"> 
-    <!-- main body -->
-    <!-- ################################################################################################ -->
-    <div class="content"> 
-      <!-- ################################################################################################ -->
-      <div id="gallery">
-        <figure>
-          <header class="heading">A visual journey through Swahili heritage</header>
-          <ul class="nospace clear">
-            <li class="one_quarter first"><a href="#"><img src="images/image1.jpg" alt=""></a></li>
-            <li class="one_quarter"><a href="#"><img src="images/image2.jpg" alt=""></a></li>
-            <li class="one_quarter"><a href="#"><img src="images/image3.jpg" alt=""></a></li>
-            <li class="one_quarter"><a href="#"><img src="images/image4.jpg" alt=""></a></li>
-            <li class="one_quarter first"><a href="#"><img src="images/image8.jpg" alt=""></a></li>
-            <li class="one_quarter"><a href="#"><img src="images/image6.jpg" alt=""></a></li>
-            <li class="one_quarter"><a href="#"><img src="images/image7.jpg" alt=""></a></li>
-            <li class="one_quarter"><a href="#"><img src="images/image9.jpg" alt=""></a></li>
-            
-          </ul>
-          <figcaption>Explore the beauty and richness of Swahili culture through our gallery. From vibrant festivals and traditional crafts to stunning architecture and community celebrations, each image captures the essence of our heritage. Join us in celebrating the traditions that define the Swahili Coast.</figcaption>
-        </figure>
-      </div>
-      <!-- ################################################################################################ -->
-      <!-- ################################################################################################ -->
-      <nav class="pagination">
-        <ul id="pagination-list">
-          <!--pages sholud be dynamic here-->
-        </ul>
-      </nav>
-      <script src="scripts/faq.js"></script>
-      <!-- ################################################################################################ -->
+ <!-- Hero Section -->
+ <header class="hero">
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <h1>Contact us</h1>
+      
     </div>
-    <!-- ################################################################################################ -->
-    <!-- / main body -->
-    <div class="clear"></div>
-  </main>
-</div>
+  </header>
+
+  <!-- Contact Section -->
+  <section class="contact-section">
+    <div class="contact-container">
+      <!-- Contact Methods -->
+      <div class="contact-methods">
+        <h2>Get in Touch</h2>
+        <p>Choose your preferred method to contact us:</p>
+        
+        <div class="contact-grid">
+          <!-- Email -->
+          <div class="contact-card">
+            <i class="fas fa-envelope"></i>
+            <h3>Email Us</h3>
+            <p>Send us an email at <a href="mailto:info@milazetu.org">info@milazetu.org</a>.</p>
+            <a href="mailto:info@milazetu.org" class="btn-secondary">Send Email</a>
+          </div>
+
+          <!-- Phone -->
+          <div class="contact-card">
+            <i class="fas fa-phone"></i>
+            <h3>Call Us</h3>
+            <p>Call us at <a href="tel:+254732889048">+254 732889048</a>.</p>
+            <a href="tel:+254732889048" class="btn-secondary">Call Now</a>
+          </div>
+
+        
+
+      <!-- Contact Form -->
+      <div class="contact-form">
+        <h2>Send Us a Message</h2>
+        <form id="contact-form" action="#" method="POST">
+          <div class="form-group">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+          </div>
+          <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+          </div>
+          <div class="form-group">
+            <label for="subject">Subject:</label>
+            <input type="text" id="subject" name="subject" required>
+          </div>
+          <div class="form-group">
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+          </div>
+          <div class="form-group">
+            <button type="submit" class="btn">Send Message</button>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <!-- Google Maps Embed -->
+    <div class="map-container">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3980.7757159999997!2d39.66341531572475!3d-4.043503996999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x184012e78ec02c3d%3A0x8a7e6b7c1a1b1b1b!2sMombasa%2C%20Kenya!5e0!3m2!1sen!2ske!4v1633020000000!5m2!1sen!2ske"
+        width="100%"
+        height="400"
+        style="border:0;"
+        allowfullscreen=""
+        loading="lazy">
+      </iframe>
+    </div>
+  </section>
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
@@ -135,9 +151,10 @@ Licence URI: https://www.os-templates.com/template-terms
       <h6 class="heading">Mila Zetu</h6>
       <nav>
         <ul class="nospace linklist">
-          <li><a href="#">About</a></li>
-          <li><a href="pages/gallery.html">Gallery</a></li>
-          <li><a href="#">contact</a></li>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          
           
         </ul>
       </nav>
